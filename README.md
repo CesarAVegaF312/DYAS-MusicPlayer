@@ -56,3 +56,21 @@ mvn exec:java -Dexec.mainClass=edu.unisabana.dyas.patterns.Client
 	1. `play("mp4", ...)` y `play("vlc", ...)` delegan correctamente en `AdvancedAudioPlayer`.
 	2. `play("flac", ...)` y `play("aac", ...)` delegan correctamente en `PremiumAudioPlayer`, usando un volumen por defecto documentado.
 	3. `stop()` detiene correctamente el reproductor subyacente que esté activo (`playMp4`/`playVlc` → `stop()`; `flac`/`aac` → `halt()`).
+
+---
+
+## Créditos y uso académico
+
+**Autor:** César Augusto Vega Fernández  
+**Curso:** Diseño y Arquitectura de Software  
+**Programa:** Ingeniería Informática – Universidad de La Sabana
+
+### Licencia de uso
+
+Este material se distribuye bajo la licencia [Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es). El texto completo está en el archivo [`LICENSE`](LICENSE).
+
+Puedes **usar, adaptar o compartir** este contenido con fines educativos, siempre que:
+
+1. Se reconozca la autoría del profesor **César Augusto Vega Fernández**.
+2. No se utilice con fines comerciales.
+3. Las obras derivadas se distribuyan bajo la misma licencia.
